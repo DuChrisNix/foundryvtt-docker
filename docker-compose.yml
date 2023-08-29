@@ -8,8 +8,8 @@ services:
     restart: "no"
     volumes:
       - type: bind
-        source: ./data
-        target: /data
+        source: ./foundrydata
+        target: /foundrydata
     environment:
       - FOUNDRY_PASSWORD=<your_password>
       - FOUNDRY_USERNAME=<your_username>
